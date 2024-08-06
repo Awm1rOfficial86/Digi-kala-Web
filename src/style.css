@@ -199,3 +199,82 @@ body{
     top: 11px;
 
 }
+
+.moz--khati{
+    margin: 10% -5% 5% -3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moz--khati > div{
+    border: 2px solid #CCC;
+    height: 250px;
+    width: 65%;
+    border-radius: 15px ;
+    overflow:hidden;
+    white-space: nowrap;
+    direction: rtl;
+    position: relative;
+}
+.moz--khati div div{
+    display: inline-block;
+    margin-top: 15px;
+    width: 25%;
+    border-left: 2px solid #ccc;
+    height: 150px;
+
+}
+
+.moz--khati > div h2{
+    position: sticky;
+    left: 100%;
+    right: 100%;
+}
+
+.moz--khati div div img{
+    width: 150px;
+    height: 150px;
+    margin: auto 25%;
+}
+.nav-postion-fix{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+.Load{
+    margin: 130px 0 0 0;
+}
+.moz--khati div > img.img-leftright{
+    width: 25px;
+    position: absolute;
+    height: 25px;
+    transform: rotate(180deg);
+    margin: 106px 0 0 0;
+    background-color: #ffffff;
+    padding: 10px;
+    z-index: 999;
+    border-radius: 15px;
+
+}
+.moz--khati__div div >img.img-leftright{
+    position: sticky;
+    left: 10%;
+    right: 10%;
+}
+.moz--khati div img.Right-3{
+    left: 0;
+}
+.img-div2{
+    margin-left: 354px;
+}
+.img-div2 img{
+    height:300px ;
+    width:600px ;
+    border-radius: 45px;
+    margin-top: 26px;
+    margin-right:40px ;
+}
+
+
