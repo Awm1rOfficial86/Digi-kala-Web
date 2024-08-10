@@ -1,280 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    overflow-x: hidden;
-}
-
-.Story{
-    width: 100%;
-    height: 90px;
-    margin: 150px 0 100px 0;
-    display: flex;
-    justify-content: center;
-    position: relative;
-
-}
-.Story-Mi{
-    width: 1300px;
-    overflow: hidden;
-    height: 95px;
-    display: flex;
-    justify-content: center;
-
-}
-.Story li{
-    display: inline-block;
-    padding-left: 16px;
-    padding-right: 16px;
-
-
-}
-.a-baner{
-    font-family: 'irsans';
-}
-
-.Story img{
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-
-}
-.Story ul div{
-    width: 90px;
-    height: 90px;
-
-    background:
-            padding-box,
-            linear-gradient(
-            green,white,red) border-box;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-size: cover;
-    position: relative;
-}
-.Story ul div img{
-    border-radius: 50%;
-    position: absolute;
-    width: 82px;
-    height: 82px;
-    bottom: 4px;
-    right: 4px;
-}
-.Story img:hover{
-    transition: 0.5s;
-    transform: scale(1.05);
-}
-.Right-btn img{
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    right: 26px;
-    top: 190px;
-
-}
-.Left-btn img{
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    left: 26px;
-    top: 190px;
-
-}
-.btn-box {
-    display: inline-block;
-    padding: 12px 28px;
-    background-color: red;
-    border-radius: 999px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 100px;
-    background: linear-gradient(white,white)
-    padding-box,
-    linear-gradient(green,white,red)border-box;
-    border: 4px solid transparent;
-}
-
-.btn-box:hover {
-    box-shadow: 0 0 2px black,
-
-}
-.btn-box a{
-    text-decoration: none;
-    color: black;
-
-}
-.btn-box img{
-    height: 25px;
-    position: absolute;
-}
-.header{
-    width: 100%;
-    height: 130px;
-}
-.Load{
-    position: absolute;
-    right: -4px;
-    z-index: 100;
-}
-.Story5 li{
-    padding-left: 1px;
-    padding-top: -20px;
-    margin-bottom: -50px;
-    margin-left: 90px;
-
-}
-.Story5 ul{
-    display: flex;
-    flex-direction: row;
-    right: 0;
-    list-style: none;
-    margin: 0 0 0 12%;
-}
-.Story5 img{
-    height: 60px;
-    width: 60px;
-    border-radius: 20%;
-    object-fit: cover;
-    transition: all .3s cubic-bezier(.499,.05,.55,.95);
-    display: block;
-    z-index: 0;
-
-}
-
-.more div{
-    height: 55px;
-    background: darkgrey;
-    border-radius: 50%;
-    width: 55px;
-    position: relative;
-}
-.more img{
-    height: 30px;
-    width: 29px;
-    position: absolute;
-    top: 13px;
-    right: 13px;
-}
-.more{
-    cursor: pointer;
-}
-.Icon-Sec img {
-    cursor: pointer;
-}
-.Right-1{
-    background: lightgray;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    position: relative;
-    top: 23px;
-    right: -1353px;
-
-
-}
-.Right-1 img{
-    position: absolute;
-    height: 17px;
-    right: 9px;
-    width: 17px;
-    top: 11px;
-}
-.Left-1{
-    background: lightgrey;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    position: relative;
-    top: 23px;
-    left: 0;
-}
-.Left-1 img{
-    position: absolute;
-    height: 17px;
-    left: 9px;
-    width: 17px;
-    top: 11px;
-
-}
-
-.moz--khati{
-    margin: 10% -5% 5% -3%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.moz--khati > div{
-    border: 2px solid #CCC;
-    height: 250px;
-    width: 65%;
-    border-radius: 15px ;
-    overflow:hidden;
-    white-space: nowrap;
+#list h2{
     direction: rtl;
-    position: relative;
+    margin-right: 7%;
+    
 }
-.moz--khati div div{
-    display: inline-block;
-    margin-top: 15px;
-    width: 25%;
-    border-left: 2px solid #ccc;
-    height: 150px;
+#list a{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: #19bfd3;
+    padding-bottom: 7%;
+    margin-top: -4%;
+}
+.list-img{
+    padding: 43px 58px 28px 45px;
+}
+#list h6{
+    direction: rtl;
+    font-size: small;
+    color: #81858b;
+    margin-right: 7%;
+}
+#list-item div img{
+padding-right: 10%;
+}
+@font-face {
+    font-family: abolfazl;
+    src: url(/assets/iranyekan/Qs_Iranyekan.ttf);
+}
+#list1 h2{
+    direction: rtl;
+    margin-right: 7%;
 
 }
+#list1 a {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: #19bfd3;
+    padding-bottom: 7%;
+    margin-top: -4%;
+}
+#list1 h6{
+    direction: rtl;
+    font-size: small;
+    color: #81858b;
+    margin-right: 7%;
+}
+#list3 img{
 
-.moz--khati > div h2{
-    position: sticky;
-    left: 100%;
-    right: 100%;
+  width: 50%;
+  margin-left: 25%;
+}
+#list3 p{
+
+  text-align: left;
+}
+#event{
+  max-width: 79%;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
 }
 
-.moz--khati div div img{
-    width: 150px;
-    height: 150px;
-    margin: auto 25%;
+.slider-container {
+  overflow: hidden;
 }
-.nav-postion-fix{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    background-color: #FFFFFF;
+.slider-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
 }
-.Load{
-    margin: 130px 0 0 0;
-}
-.moz--khati div > img.img-leftright{
-    width: 25px;
-    position: absolute;
-    height: 25px;
-    transform: rotate(180deg);
-    margin: 106px 0 0 0;
-    background-color: #ffffff;
-    padding: 10px;
-    z-index: 999;
-    border-radius: 15px;
-
-}
-.moz--khati__div div >img.img-leftright{
-    position: sticky;
-    left: 10%;
-    right: 10%;
-}
-.moz--khati div img.Right-3{
-    left: 0;
-}
-.img-div2{
-    margin-left: 354px;
-}
-.img-div2 img{
-    height:300px ;
-    width:600px ;
-    border-radius: 45px;
-    margin-top: 26px;
-    margin-right:40px ;
+.slide {
+  min-width: 11%;
+  box-sizing: border-box;
 }
 
 
+@media screen and (max-width:650px) {
+  #event {
+    
+   max-width: 93%;
+  }
+
+}
+@media screen and (max-width:780px) {
+  #event {
+    
+   max-width: 93%;
+  }
+  
+}
+@media screen and (max-width:597px) {
+  #img597 {
+    display: none;
+   
+  }
+}
+@media screen and (max-width:597px) {
+
+  #lolo{
+
+   margin: 0 auto;
+  }
+  
+}
+@media screen and (max-width:1020px) {
+
+  .slide{
+
+    min-width: 55%;
+  }
+  
+}
